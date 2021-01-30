@@ -46,7 +46,6 @@
             </div>
             <div class="input-group f-class">
                 <div>
-
                     <label for="">First Class ($150)</label>
                     <div class="input-section">
                         <p onclick="handleTicketChange('firstClass',false);" class="plus-minus-btn"> - </p>
@@ -76,7 +75,6 @@
                         <p id="total-price">$0</p>
                     </div>
                 </div>
-
                 <div class="amount">
                     <div class="left">
                         <p>Charge 10% VAT</p>
@@ -95,6 +93,7 @@
                     </div>
                 </div>
             </div>
+                 <!-- alert message box section -->                           
             <div class="alert" id="alert-box">
                 <div class="message">
                     <div class="close-alert" onclick="successfullyAlert()">&times;
@@ -152,7 +151,7 @@
                 return ticketCount;
             }
 
-            // Message box function
+            // alert Message box function
 
             function successfullyAlert() {
                 document.getElementById("alert-box").classList.toggle("active");
